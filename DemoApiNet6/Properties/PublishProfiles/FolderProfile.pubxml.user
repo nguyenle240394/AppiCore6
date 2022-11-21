@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\website</_PublishTargetUrl>
+    <History>True|2022-11-18T09:43:10.8308580Z;False|2022-11-18T16:41:54.2294855+07:00;True|2022-11-18T16:26:25.6622389+07:00;True|2022-11-18T14:15:14.3698814+07:00;False|2022-11-18T14:12:32.7146500+07:00;True|2022-11-18T14:04:49.0615941+07:00;True|2022-11-18T13:48:02.2889526+07:00;True|2022-11-18T10:57:55.3704637+07:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=113.161.6.185%3bInitial Catalog=WMS_CLP_DN_TEST%3bTrustServerCertificate=True%3bPersist Security Info=True%3bUser ID=PLMWMS%3bPassword=%40bcde1234</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="DemoApiNet6.Data.WmsClpDnTestContext">
+      <Value>Data Source=113.161.6.185%3bInitial Catalog=WMS_CLP_DN_TEST%3bTrustServerCertificate=True%3bPersist Security Info=True%3bUser ID=PLMWMS%3bPassword=%40bcde1234</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
